@@ -1,0 +1,71 @@
+/*calculator appearance*/
+.calculator {
+    margin: 50px auto;
+    padding: 18px;
+    width: 300px;
+    height: 500px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    background:#000;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    box-shadow: 4px 4px 4px #4f4f4f4f ;
+}
+/*calculator screen appearance*/
+.calculator-screen{
+    height: 125px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-bottom: 5px;
+}
+/*calculator screen entry p*/
+.calculator-screen p{
+    margin: 0px;
+    align-items: right;
+    font-size: 4rem;
+}
+/*button appearance*/
+.btn {
+    margin: 5px;
+    width: 60px;
+    height: 60px;
+    background: #333;
+    border-radius:50%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    user-select: none;
+    flex: 1 1 auto;
+
+}
+/*zero button appearance*/
+.btn.zero {
+    border-radius: 40px;
+    width: 130px;
+}
+
+/*grid alignment*/
+.buttons {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+
+/*adding hover effect*/
+.btn:hover {
+    filter: brightness(120%);
+}
+.btn:active {
+    filter: brightness(90%);
+}
+/*buttons color*/
+.btn.bg-grey {
+    background: #a6a6a6;
+}
+.btn.bg-orange{
+    background: #ff9501;
+}
