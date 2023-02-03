@@ -19,12 +19,16 @@
     justify-content: end;
     align-items: end;
     margin-bottom: 5px;
+    word-break: break-all;
+    overflow: hidden;
+    font-size: 4vh;
+    line-height: 4vh;
 }
 /*calculator screen entry p*/
 .calculator-screen p{
     margin: 0px;
     align-items: right;
-    font-size: 4rem;
+    margin: 20px;
 }
 /*button appearance*/
 .btn {
